@@ -1,0 +1,110 @@
+body {
+  font-family: "Crimson Pro", serif;
+}
+.container {
+  width: 1024px;
+  min-height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f0efef;
+}
+nav {
+  height: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: right;
+}
+nav a {
+  color: #808080;
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.home{
+  color: rgb(77, 74, 74);
+}
+main {
+  display: flex;
+  min-height: 300px;
+  justify-content: space-between;
+  display: flex;
+}
+.herobox1 {
+  background-color: rgb(99, 176, 199);
+  width: 30%;
+  height: 300px;
+}
+.herobox1 p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 90px;
+}
+
+.herobox2 {
+  background-image: url(/img/john-fornander-Id7u0EkTjBE-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 68%;
+  height: 300px;
+}
+section {
+  display: flex;
+  justify-content: right;
+  height: 150px;
+  margin-bottom: 20px;
+}
+.text {
+  width: 48%;
+}
+h1 {
+  color: #2886a0;
+  font-weight: 200;
+}
+.text p {
+  font-size: 14px;
+  color: #666565;
+  line-height: 25px;
+}
+.links {
+  width: 20%;
+  margin-top: 50px;
+}
+.a {
+  list-style-type: square;
+  color: #2886a0;
+  margin-left: 20px;
+  font-size: 15px;
+  line-height: 20px;
+  display: inline-block;
+  text-decoration: underline;
+}
+
+footer {
+  width: 68%;
+  height: 50px;
+  margin-left: 325px;
+  border-top: 1px solid #cfcece;
+  display: flex;
+  justify-content: space-between;
+}
+.paragraph {
+  font-size: 15px;
+  color: #636363;
+  width: 68%;
+  height: 50px;
+}
+.icons {
+  width: 20%;
+  height: 50px;
+  margin-top: 10px;
+  padding-right: 1px;
+}
+
+.icons img {
+  width: 20px;
+  height: 20px;
+}
